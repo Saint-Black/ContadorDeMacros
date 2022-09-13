@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Macronutrientes</title>
+  <link rel="stylesheet" href="bootstrap2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilosmacros.css">
+  <link rel="stylesheet" href="img/logo-egg.png" rel="icon">
+
+</head>
+<body>
+
+  <header>
+
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CalcuMacro
+            <img src="img/logo-egg.png" alt="" width="80" height="54" >
+          </a> 
+         
+        </div class="texto">
+        <center>
+         <P>
+           <h5>
+            Importancia  de Calcular los Macronutrientes
+           </h5>
+           <br>
+           Al calcular los macronutriente se tiene un equilibrio perfecto 
+           de ellos y asi podriamos garantizar un peso sano,  una combustión de grasa
+           mucho más eficaz y la generación de la masa muscular magra
+          </P>
+        </center>
+      
+      
+      </nav>
+     
+     
+    </header>
+
+    <div class="row">
+      <div  class="col-5">
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slyder/calorias2.jpg" class="d-block w-100" alt="..." width="400" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slyder/carbohidratos2.jpg" class="d-block w-100" alt="..." width="400" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slyder/grasas2.jpg" class="d-block w-100" alt="..." width="400" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slyder/proteinas2.jpg" class="d-block w-100" alt="..." width="400" height="400">
+              </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  
+      </div>
+
+      <div  class=col-7>
+        <center>
+          <br>
+          <h4>CALCULADORA DE MACRONUTRIENTES</h4>
+          <br>
+         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 form-group">
+                <label  for="fname" style="color: green">Agregar Alimento:</label><br><br>
+                <input type="text" name="" class="form-control" id=""   >
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <label for="fname" style="color: green;">Agregar Cantidad:</label><br><br>
+                <input type="int" class="form-control" name="" id=""  >
+                <div class="validate"></div>
+              </div>
+              <div class= "col-lg-4 col-md-6 form-group mt-3 mt-md-4">
+                <button class="button button1" type="submit">Agregar</button>
+              </div>
+          </form>
+     </center>
+     <br>
+     <ul>
+      <li>Arroz 30g</li>
+      <li>pollo 10g</li>
+      <li>cerdo 10g</li>
+      <li>papa  5g</li>
+     </ul>  
+     <div class="text-center">
+      <button class="button button2" type="submit">Calcular Macronutrientes</button>
+     </div>
+      </div>
+
+      
+    </div>
+    <br>
+    <footer id="footer" style="background-color: gray"  >
+      <br>
+      <div class="copyright">
+        &copy; Copyright <strong><span>CalcuMacro</span></strong>.Reservados Todos los Derechos
+      </div>
+    </footer >
+  
+
+  
+
+ 
+ <script src="bootstrap2/js/bootstrap.min.js"></script>
+ <script src="bootstrap2/js/popper/popper.min.js"></script>
+ <script src="bootstrap2/js/popper/bootstrap.min.js"></script>
+
+</body>
+</html>
